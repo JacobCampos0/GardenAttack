@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6918420056601387406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2049793287810424328, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.983794
+      objectReference: {fileID: 0}
+    - target: {fileID: 2049793287810424328, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0004246086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907970292466659828, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303835043415726831, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_Name
+      value: Chouse Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 88.63195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.9133754
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937905579481690726, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3734634211946907051, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5303835043415726831, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2345582167464914248}
+  m_SourcePrefab: {fileID: 100100000, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+--- !u!1 &2997193639118633825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5303835043415726831, guid: 389739cd9c80b414a82c6931edd97dd0, type: 3}
+  m_PrefabInstance: {fileID: 6918420056601387406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-2345582167464914248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997193639118633825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b4cbe2ebfaa0e4f94b3689f1c1c734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 300
+  movementSpeed: 1
+  ExitLevelObject: {fileID: 1630965213151277373, guid: 5185b40c1db933b47b753ce4d13b0ee3, type: 3}
+  ExitLevelPosition: {x: 80, y: 5.5}
